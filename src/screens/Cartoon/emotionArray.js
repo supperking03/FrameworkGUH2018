@@ -1,0 +1,492 @@
+ import {Animated,Dimensions} from 'react-native'
+ var {height} = Dimensions.get('window');
+
+
+ export default emotionsArray=[
+     {
+         id: '1',
+         name: "md-thumbs-up",
+         startTime: 100,
+     },
+     {
+         id: '2',
+         name: "md-happy",
+     },
+     {
+         id: '3',
+         name: "md-heart",
+         startTime: 1000,
+     },
+     {
+         id: '4',
+         name: "md-thumbs-up",
+         startTime: 2000,
+     },
+     {
+         id: '5',
+         name: "md-happy",
+         startTime: 3500,
+     },
+     {
+         id: '6',
+         name: "md-heart",
+         startTime: 4200,
+     },
+     {
+         id: '7',
+         name: "md-thumbs-up",
+         startTime: 5500,
+     },
+     {
+         id: '8',
+         name: "md-happy",
+         startTime: 6400,
+     },
+     {
+         id: '9',
+         name: "md-heart",
+         startTime: 7000,
+     },
+     {
+         id: '10',
+         name: "md-thumbs-up",
+         startTime: 8900,
+     },
+     {
+         id: '11',
+         name: "md-happy",
+         startTime: 9000,
+     },
+     {
+         id: '12',
+         name: "md-heart",
+         startTime: 9500,
+     },
+
+
+     {
+         id: '13',
+         name: "md-thumbs-up",
+         startTime: 10000,
+     },
+     {
+         id: '14',
+         name: "md-happy",
+         startTime: 11500,
+     },
+     {
+         id: '15',
+         name: "md-heart",
+         startTime: 12000,
+     },
+     {
+         id: '16',
+         name: "md-thumbs-up",
+         startTime: 12500,
+     },
+     {
+         id: '17',
+         name: "md-happy",
+         startTime: 13000,
+     },
+     {
+         id: '18',
+         name: "md-heart",
+         startTime: 13500,
+     },
+     {
+         id: '19',
+         name: "md-thumbs-up",
+         startTime: 14200,
+     },
+     {
+         id: '20',
+         name: "md-happy",
+         startTime: 15400,
+     },
+     {
+         id: '21',
+         name: "md-heart",
+         startTime: 16000,
+     },
+     {
+         id: '22',
+         name: "md-thumbs-up",
+         startTime: 17900,
+     },
+     {
+         id: '23',
+         name: "md-happy",
+         startTime: 18000,
+     },
+     {
+         id: '24',
+         name: "md-heart",
+         startTime: 18500,
+     },
+
+
+
+
+     {
+         id: '25',
+         name: "md-thumbs-up",
+         startTime: 19000,
+     },
+     {
+         id: '26',
+         name: "md-happy",
+         startTime: 20550,
+     },
+     {
+         id: '27',
+         name: "md-heart",
+         startTime: 21000,
+     },
+     {
+         id: '28',
+         name: "md-thumbs-up",
+         startTime: 22000,
+     },
+     {
+         id: '29',
+         name: "md-happy",
+         startTime: 22500,
+     },
+     {
+         id: '30',
+         name: "md-heart",
+         startTime: 23200,
+     },
+     {
+         id: '31',
+         name: "md-thumbs-up",
+         startTime: 24500,
+     },
+     {
+         id: '32',
+         name: "md-happy",
+         startTime: 25000,
+     },
+     {
+         id: '33',
+         name: "md-heart",
+         startTime: 26000,
+     },
+     {
+         id: '34',
+         name: "md-thumbs-up",
+         startTime: 27900,
+     },
+     {
+         id: '35',
+         name: "md-happy",
+         startTime: 28000,
+     },
+     {
+         id: '36',
+         name: "md-heart",
+         startTime: 29500,
+     },
+
+ ]
+
+
+
+const  emotionsArray2=[
+    {
+        id: '1',
+        name: "md-thumbs-up",
+        startTime: 100,
+        appear: false,
+        top: 340,
+        left: new Animated.Value(height),
+    },
+    {
+        id: '2',
+        name: "md-happy",
+        startTime: 550,
+        appear: false,
+        top: 200,
+        left: new Animated.Value(height),
+    },
+    {
+        id: '3',
+        name: "md-heart",
+        startTime: 1000,
+        appear: false,
+        top: 300,
+        left: new Animated.Value(height),
+    },
+    {
+        id: '4',
+        name: "md-thumbs-up",
+        startTime: 2000,
+        appear: false,
+        top: 350,
+        left: new Animated.Value(height),
+    },
+    {
+        id: '5',
+        name: "md-happy",
+        startTime: 3500,
+        appear: false,
+        top: 250,
+        left: new Animated.Value(height),
+    },
+    {
+        id: '6',
+        name: "md-heart",
+        startTime: 4200,
+        appear: false,
+        top: 350,
+        left: new Animated.Value(height),
+    },
+    {
+        id: '7',
+        name: "md-thumbs-up",
+        startTime: 5500,
+        appear: false,
+        top: 340,
+        left: new Animated.Value(height),
+    },
+    {
+        id: '8',
+        name: "md-happy",
+        startTime: 6400,
+        appear: false,
+        top: 220,
+        left: new Animated.Value(height),
+    },
+    {
+        id: '9',
+        name: "md-heart",
+        startTime: 7000,
+        appear: false,
+        top: 230,
+        left: new Animated.Value(height),
+    },
+    {
+        id: '10',
+        name: "md-thumbs-up",
+        startTime: 8900,
+        appear: false,
+        top: 340,
+        left: new Animated.Value(height),
+    },
+    {
+        id: '11',
+        name: "md-happy",
+        startTime: 9000,
+        appear: false,
+        top: 200,
+        left: new Animated.Value(height),
+    },
+    {
+        id: '12',
+        name: "md-heart",
+        startTime: 9500,
+        appear: false,
+        top: 350,
+        left: new Animated.Value(height),
+    },
+
+
+    {
+        id: '13',
+        name: "md-thumbs-up",
+        startTime: 10000,
+        appear: false,
+        top: 340,
+        left: new Animated.Value(height),
+    },
+    {
+        id: '14',
+        name: "md-happy",
+        startTime: 11500,
+        appear: false,
+        top: 200,
+        left: new Animated.Value(height),
+    },
+    {
+        id: '15',
+        name: "md-heart",
+        startTime: 12000,
+        appear: false,
+        top: 300,
+        left: new Animated.Value(height),
+    },
+    {
+        id: '16',
+        name: "md-thumbs-up",
+        startTime: 12500,
+        appear: false,
+        top: 350,
+        left: new Animated.Value(height),
+    },
+    {
+        id: '17',
+        name: "md-happy",
+        startTime: 13000,
+        appear: false,
+        top: 250,
+        left: new Animated.Value(height),
+    },
+    {
+        id: '18',
+        name: "md-heart",
+        startTime: 13500,
+        appear: false,
+        top: 350,
+        left: new Animated.Value(height),
+    },
+    {
+        id: '19',
+        name: "md-thumbs-up",
+        startTime: 14200,
+        appear: false,
+        top: 340,
+        left: new Animated.Value(height),
+    },
+    {
+        id: '20',
+        name: "md-happy",
+        startTime: 15400,
+        appear: false,
+        top: 220,
+        left: new Animated.Value(height),
+    },
+    {
+        id: '21',
+        name: "md-heart",
+        startTime: 16000,
+        appear: false,
+        top: 230,
+        left: new Animated.Value(height),
+    },
+    {
+        id: '22',
+        name: "md-thumbs-up",
+        startTime: 17900,
+        appear: false,
+        top: 340,
+        left: new Animated.Value(height),
+    },
+    {
+        id: '23',
+        name: "md-happy",
+        startTime: 18000,
+        appear: false,
+        top: 200,
+        left: new Animated.Value(height),
+    },
+    {
+        id: '24',
+        name: "md-heart",
+        startTime: 18500,
+        appear: false,
+        top: 350,
+        left: new Animated.Value(height),
+    },
+
+
+
+
+    {
+        id: '25',
+        name: "md-thumbs-up",
+        startTime: 19000,
+        appear: false,
+        top: 340,
+        left: new Animated.Value(height),
+    },
+    {
+        id: '26',
+        name: "md-happy",
+        startTime: 20550,
+        appear: false,
+        top: 200,
+        left: new Animated.Value(height),
+    },
+    {
+        id: '27',
+        name: "md-heart",
+        startTime: 21000,
+        appear: false,
+        top: 300,
+        left: new Animated.Value(height),
+    },
+    {
+        id: '28',
+        name: "md-thumbs-up",
+        startTime: 22000,
+        appear: false,
+        top: 350,
+        left: new Animated.Value(height),
+    },
+    {
+        id: '29',
+        name: "md-happy",
+        startTime: 22500,
+        appear: false,
+        top: 250,
+        left: new Animated.Value(height),
+    },
+    {
+        id: '30',
+        name: "md-heart",
+        startTime: 23200,
+        appear: false,
+        top: 350,
+        left: new Animated.Value(height),
+    },
+    {
+        id: '31',
+        name: "md-thumbs-up",
+        startTime: 24500,
+        appear: false,
+        top: 340,
+        left: new Animated.Value(height),
+    },
+    {
+        id: '32',
+        name: "md-happy",
+        startTime: 25000,
+        appear: false,
+        top: 220,
+        left: new Animated.Value(height),
+    },
+    {
+        id: '33',
+        name: "md-heart",
+        startTime: 26000,
+        appear: false,
+        top: 230,
+        left: new Animated.Value(height),
+    },
+    {
+        id: '34',
+        name: "md-thumbs-up",
+        startTime: 27900,
+        appear: false,
+        top: 340,
+        left: new Animated.Value(height),
+    },
+    {
+        id: '35',
+        name: "md-happy",
+        startTime: 28000,
+        appear: false,
+        top: 200,
+        left: new Animated.Value(height),
+    },
+    {
+        id: '36',
+        name: "md-heart",
+        startTime: 29500,
+        appear: false,
+        top: 350,
+        left: new Animated.Value(height),
+    },
+
+]

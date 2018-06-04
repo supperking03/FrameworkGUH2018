@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">GUH 2018</string>
+    <string name="fb_app_id">1913479075393450</string>
+    <string name="fb_login_protocol_scheme">fb1913479075393450</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+</resources>
